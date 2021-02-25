@@ -1,6 +1,8 @@
 import json
 import random
 
+#open json file 
+
 with open('animals.json', 'r') as f:
 	animals = json.load(f)
 
