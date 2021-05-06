@@ -1,0 +1,32 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ig7235-test-redis-deployment
+  labels:
+    username: "ig7235"
+    env: "test"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      username: "ig7235"
+      env: "test"
+  template:
+    metadata:
+      labels:
+        username: "ig7235"
+        env: "test"  
+        app: "ig7235-test-redis"
+    spec:
+      containers:
+        - name: ig7235-test-redis
+          image: redis:5.0.0
+          volumeMounts:
+          - name: ig7235-test-data
+            mountPath: "/data"
+      volumes:
+      - name: ig7235-test-data
+        persistentVolumeClaim:
+          claimName: ig7235-test-data
+

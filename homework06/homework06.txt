@@ -1,0 +1,24 @@
+STEP 1 commands: 
+kubectl apply -f ig7235-test-redis-pvc.yml
+  persistentvolumeclaim/ig7235-test-data created
+
+STEP 2 commands:
+kubectl apply -f ig7235-test-redis-deployment.yml
+  deployment.apps/ig7235-test-redis-deployment created
+
+
+STEP3 commands:
+kubectl apply -f ig7235-test-redis-service.yml
+  service/ig7235-test-redis-service configured
+
+kubectl get services -o wide
+  ig7235-test-redis-service              ClusterIP   10.99.120.237 
+
+STEP 4 commands:
+kubectl apply -f ig7235-test-api-deployment.yml
+  deployment.apps/ig7235-test-flask-deployment created
+
+
+STEP 5 commands:
+kubectl apply -f ig7235-test-redis-service.yml
+   service/ig7235-test-api-service configured

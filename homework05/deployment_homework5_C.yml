@@ -1,0 +1,28 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: homework5-deployment
+  labels:
+    app: homework-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: homework5-app
+  template:
+    metadata:
+      labels:
+        app: homework5-app
+    spec:
+      containers:
+        - name: hellos
+          image: ubuntu:18.04
+          env:
+             - name: 'NAME'
+               value: 'Isa'
+             - name: 'POD_IP'
+               valueFrom:
+                  fieldRef:
+                     fieldPath: status.podIP
+          command: ['sh', '-c', 'echo "Hello $NAME from IP $POD_IP" && sleep 3600']

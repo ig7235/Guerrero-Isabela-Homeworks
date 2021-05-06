@@ -1,0 +1,26 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ig7235-test-flask-deployment
+  labels:
+    username: "ig7235"
+    env: "test"
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      username: "ig7235"
+      env: "test"
+  template:
+    metadata:
+      labels:
+        username: "ig7235"
+        env: "test"
+        app: "ig7235-test-flask"
+    spec:
+      containers:
+        - name: ig7235-test-flask
+          imagePullPolicy: Always
+          image: flask-animals-isa:latest
+         

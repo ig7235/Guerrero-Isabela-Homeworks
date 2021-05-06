@@ -1,0 +1,38 @@
+Part A:
+
+1. Command used to created pod: ` kubectl apply -f pod_homework5_A.yml 
+2. Using selector to find pod:
+   command :  kubectl get pods --selector "greeting=personalized"
+   output :
+     NAME              READY   STATUS    RESTARTS   AGE
+     pod-homework5-a   1/1     Running   0          10m
+3. Checking logs of pod: 
+   output:'hello', I was expecting 'hello $NAME'
+4. Delete pod command: kubectl delete pods pod-homework5-a
+
+Part B:
+
+1. Command used to create pod: kubectl apply -f pod_homework5_B.yml 
+2. Checking logs of pod: kubectl logs pod-homework5-b
+   output: Hello Isa
+3. Delete pod command: kubect delete pods pod-homework5-b
+
+Part C:
+
+1. Command used to create deployment:  kubectl apply -f deployment_homework5_C.yml 
+2. Command used to get all pods IP address: kubectl get pods -o wide
+   relevant ouput:
+   NAME                                   READY   STATUS    RESTARTS   AGE     IP              NODE   NOMINATED NODE   READINESS GATES
+   homework5-deployment-d8c846d8f-5sp4g   1/1     Running   0          3m30s   10.244.12.166   c12    <none>           <none>
+   homework5-deployment-d8c846d8f-7jwnc   1/1     Running   0          3m32s   10.244.5.181    c04    <none>           <none>
+   homework5-deployment-d8c846d8f-crsbg   1/1     Running   0          3m33s   10.244.15.4     c03    <none>           <none>
+3. Logs associated with each pod:
+   Command: kubectl logs homework5-deployment-d8c846d8f-5sp4g 
+   output:  Hello Isa from IP 10.244.12.166
+   Command: kubectl logs homework5-deployment-d8c846d8f-7jwnc
+   output:  Hello Isa from IP 10.244.5.181
+   Command: kubectl logs homework5-deployment-d8c846d8f-crsbg
+   output:  Hello Isa from IP 10.244.15.4
+
+   Does match!
+
