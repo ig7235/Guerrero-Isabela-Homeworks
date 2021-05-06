@@ -1,0 +1,26 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: shelttered-homeless-prod-test-deployment
+  labels:
+    app: shelttered-homeless-test-wrk
+    env: test
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: shelttered-homeless-test-wrk
+  template:
+    metadata:
+      labels:
+        app: shelttered-homeless-test-wrk
+        env: test
+    spec:
+      containers:
+        - name: shelttered-homeless-test-wrk
+          image: ig7235/shelttered-homeless-app-wrk:1.0
+          imagePullPolicy: Always
+          env:
+          - name: REDIS_IP
+            value: 10.101.165.169

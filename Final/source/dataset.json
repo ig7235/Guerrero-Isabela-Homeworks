@@ -1,0 +1,698 @@
+{
+  "2016": {
+    "Race": {
+      "American Indian or Alaskan Native":{
+        "# in Emergency Shelter": 73,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 1,
+        "Total Unduplicated Clients": 73
+        },
+      "Asian":{
+        "# in Emergency Shelter": 40,
+        "# in Safe Haven": 1,
+        "# in Transitional Housing": 3,
+        "Total Unduplicated Clients":42
+        },
+      "Black or African American":{
+        "# in Emergency Shelter": 1830,
+        "# in Safe Haven": 19,
+        "# in Transitional Housing": 170,
+        "Total Unduplicated Clients": 1981
+        },
+      "Native Hawaiian or Other Pacific Islander":{
+        "# in Emergency Shelter": 15,
+        "# in Safe Haven": 1,
+        "# in Transitional Housing":1,
+        "Total Unduplicated Clients": 16
+        },
+      "White":{
+        "# in Emergency Shelter": 2278,
+        "# in Safe Haven": 44,
+        "# in Transitional Housing": 212,
+        "Total Unduplicated Clients": 2475
+        },
+      "Unknown":{
+        "# in Emergency Shelter": 40,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 0,
+        "Total Unduplicated Clients": 40
+        }
+      },
+    "Ethnicity":{
+      "Hispanic/Latino":{
+        "# in Emergency Shelter": 1041,
+        "# in Safe Haven": 4,
+        "# in Transitional Housing": 131,
+        "Total Unduplicated Clients": 1140
+        },
+      "Non-Hispanic/Non-Latino":{
+        "# in Emergency Shelter": 3226,
+        "# in Safe Haven": 61,
+        "# in Transitional Housing": 254,
+        "Total Unduplicated Clients":3476
+        },
+      "Unknown":{
+        "# in Emergency Shelter": 11,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 0,
+        "Total Unduplicated Clients": 11
+        }
+      },
+    "Gender":{
+      "Female":{
+        "# in Emergency Shelter": 1525,
+        "# in Safe Haven": 3,
+        "# in Transitional Housing": 198,
+        "Total Unduplicated Clients": 1686
+        },
+      "Male":{
+        "# in Emergency Shelter": 2426,
+        "# in Safe Haven": 62,
+        "# in Transitional Housing": 107,
+        "Total Unduplicated Clients":2555
+        },
+      "Trans Female":{
+        "# in Emergency Shelter": 13,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 2,
+        "Total Unduplicated Clients":14
+        },
+      "Trans Male":{
+        "# in Emergency Shelter": 6,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 2,
+        "Total Unduplicated Clients":7
+        },
+      "Gender Non-Conforming":{
+        "# in Emergency Shelter": 1,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 0,
+        "Total Unduplicated Clients":1
+        },
+      "Unknown":{
+        "# in Emergency Shelter": 3,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 0,
+        "Total Unduplicated Clients": 3
+        }
+      },
+    "Veteran Satus":{
+      "Veteran":{
+        "# in Emergency Shelter": 443,
+        "# in Safe Haven": 65,
+        "# in Transitional Housing": 101,
+        "Total Unduplicated Clients": 573
+        },
+      "Not a Veteran":{
+        "# in Emergency Shelter": 3829,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 291,
+        "Total Unduplicated Clients": 4055
+        }, 
+      "Unknown":{
+        "# in Emergency Shelter": 3,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 0,
+        "Total Unduplicated Clients":3
+        }
+      },
+    "Age Category":{
+      "Adult 25-61":{
+        "# in Emergency Shelter": 3083,
+        "# in Safe Haven": 51,
+        "# in Transitional Housing": 144,
+        "Total Unduplicated Clients": 3226
+        },
+      "Adult 18-24":{
+        "# in Emergency Shelter": 295,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 71,
+        "Total Unduplicated Clients": 359
+        }, 
+      "Elder Adult 62+":{
+        "# in Emergency Shelter": 259,
+        "# in Safe Haven": 14,
+        "# in Transitional Housing": 16,
+        "Total Unduplicated Clients":286
+        },
+      "Children":{
+        "# in Emergency Shelter": 112,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 5,
+        "Total Unduplicated Clients":117
+        },
+      "Unknown":{
+        "# in Emergency Shelter": 0,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 0,
+        "Total Unduplicated Clients":0
+        }
+      },
+    "Disability Status":{
+      "Has a Disabling Condition":{
+        "# in Emergency Shelter": 2096,
+        "# in Safe Haven": 57,
+        "# in Transitional Housing": 81,
+        "Total Unduplicated Clients": 2201
+        },
+      "Does Not Have a Disabling Condition":{
+        "# in Emergency Shelter": 2173,
+        "# in Safe Haven": 10,
+        "# in Transitional Housing": 274,
+        "Total Unduplicated Clients": 2403
+        },
+      "Unknow":{
+        "# in Emergency Shelter": 25,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 1,
+        "Total Unduplicated Clients": 26
+        }
+      }
+    },
+  "2017": {
+    "Race": {
+      "American Indian or Alaskan Native":{
+        "# in Emergency Shelter": 73,
+        "# in Safe Haven": 1,
+        "# in Transitional Housing": 6,
+        "Total Unduplicated Clients": 75
+        },
+      "Asian":{
+        "# in Emergency Shelter": 41,
+        "# in Safe Haven": 1,
+        "# in Transitional Housing": 1,
+        "Total Unduplicated Clients":43
+        },
+      "Black or African American":{
+        "# in Emergency Shelter": 1739,
+        "# in Safe Haven": 14,
+        "# in Transitional Housing": 167,
+        "Total Unduplicated Clients": 1832
+        },
+      "Native Hawaiian or Other Pacific Islander":{
+        "# in Emergency Shelter": 22,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing":0,
+        "Total Unduplicated Clients": 22
+        },
+      "White":{
+        "# in Emergency Shelter": 2177,
+        "# in Safe Haven": 50,
+        "# in Transitional Housing": 187,
+        "Total Unduplicated Clients": 2332
+        },
+      "Unknown":{
+        "# in Emergency Shelter": 44,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 2,
+        "Total Unduplicated Clients": 46
+        }
+      },
+    "Ethnicity":{
+      "Hispanic/Latino":{
+        "# in Emergency Shelter": 996,
+        "# in Safe Haven": 7,
+        "# in Transitional Housing": 124,
+        "Total Unduplicated Clients": 1071
+        },
+      "Non-Hispanic/Non-Latino":{
+        "# in Emergency Shelter": 3099,
+        "# in Safe Haven": 59,
+        "# in Transitional Housing": 224,
+        "Total Unduplicated Clients":3277
+        },
+      "Unknown":{
+        "# in Emergency Shelter": 19,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 2,
+        "Total Unduplicated Clients": 20
+        }
+      },
+    "Gender":{
+      "Female":{
+        "# in Emergency Shelter": 1293,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 182,
+        "Total Unduplicated Clients": 1378
+        },
+      "Male":{
+        "# in Emergency Shelter": 2589,
+        "# in Safe Haven": 66,
+        "# in Transitional Housing": 109,
+        "Total Unduplicated Clients":2716
+        },
+      "Trans Female":{
+        "# in Emergency Shelter": 11,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 1,
+        "Total Unduplicated Clients":12
+        },
+      "Trans Male":{
+        "# in Emergency Shelter": 6,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 0,
+        "Total Unduplicated Clients":6
+        },
+      "Gender Non-Conforming":{
+        "# in Emergency Shelter": 2,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 0,
+        "Total Unduplicated Clients":2
+        },
+       "Unknown":{
+        "# in Emergency Shelter": 1,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 0,
+        "Total Unduplicated Clients": 1
+        }
+      },
+    "Veteran Satus":{
+      "Veteran":{
+        "# in Emergency Shelter": 439,
+        "# in Safe Haven": 64,
+        "# in Transitional Housing": 90,
+        "Total Unduplicated Clients": 558
+        },
+      "Not a Veteran":{
+        "# in Emergency Shelter": 3664,
+        "# in Safe Haven": 1,
+        "# in Transitional Housing": 285,
+        "Total Unduplicated Clients": 3800
+        },
+      "Unknown":{
+        "# in Emergency Shelter": 7,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 0,
+        "Total Unduplicated Clients":7
+        }
+      },
+    "Age Category":{
+      "Adult 25-61":{
+        "# in Emergency Shelter": 3051,
+        "# in Safe Haven": 51,
+        "# in Transitional Housing": 144,
+        "Total Unduplicated Clients": 3166
+        },
+      "Adult 18-24":{
+        "# in Emergency Shelter": 294,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 61,
+        "Total Unduplicated Clients": 344
+        },
+      "Elder Adult 62+":{
+        "# in Emergency Shelter": 261,
+        "# in Safe Haven": 15,
+        "# in Transitional Housing": 13,
+        "Total Unduplicated Clients":281
+        },
+      "Children":{
+        "# in Emergency Shelter": 99,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 2,
+        "Total Unduplicated Clients": 101
+        },
+      "Unknown":{
+        "# in Emergency Shelter": 0,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 0,
+        "Total Unduplicated Clients":0
+        }
+      },
+    "Disability Status":{
+      "Has a Disabling Condition":{
+        "# in Emergency Shelter": 1996,
+        "# in Safe Haven": 59,
+        "# in Transitional Housing": 104,
+        "Total Unduplicated Clients": 2102
+        },
+      "Does Not Have a Disabling Condition":{
+        "# in Emergency Shelter": 2113,
+        "# in Safe Haven": 6,
+        "# in Transitional Housing": 226,
+        "Total Unduplicated Clients": 2262
+        },
+      "Unknow":{
+        "# in Emergency Shelter": 31,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 1,
+        "Total Unduplicated Clients":32
+        }
+      }
+    },
+  "2018": {
+    "Race": {
+      "American Indian or Alaskan Native":{
+        "# in Emergency Shelter": 85,
+        "# in Safe Haven": 3,
+        "# in Transitional Housing": 10,
+        "Total Unduplicated Clients": 94
+        },
+      "Asian":{
+        "# in Emergency Shelter": 41,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 0,
+        "Total Unduplicated Clients":41
+        },
+      "Black or African American":{
+        "# in Emergency Shelter": 1715,
+        "# in Safe Haven": 17,
+        "# in Transitional Housing": 140,
+        "Total Unduplicated Clients": 1840
+        },
+      "Native Hawaiian or Other Pacific Islander":{
+        "# in Emergency Shelter": 20,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing":0,
+        "Total Unduplicated Clients": 20
+        },
+      "White":{
+        "# in Emergency Shelter": 2309,
+        "# in Safe Haven": 50,
+        "# in Transitional Housing": 164,
+        "Total Unduplicated Clients": 2469
+        },
+      "Unknown":{
+        "# in Emergency Shelter": 54,
+        "# in Safe Haven": 1,
+        "# in Transitional Housing": 4,
+        "Total Unduplicated Clients": 58
+        }
+      },
+    "Ethnicity":{
+      "Hispanic/Latino":{
+        "# in Emergency Shelter": 1083,
+        "# in Safe Haven": 11,
+        "# in Transitional Housing": 118,
+        "Total Unduplicated Clients": 1167
+        },
+      "Non-Hispanic/Non-Latino":{
+        "# in Emergency Shelter": 3128,
+        "# in Safe Haven": 59,
+        "# in Transitional Housing": 207,
+        "Total Unduplicated Clients":3340
+        },
+    "Unknown":{
+        "# in Emergency Shelter": 16,
+        "# in Safe Haven": 1,
+        "# in Transitional Housing": 1,
+        "Total Unduplicated Clients": 18
+        }
+      },
+    "Gender":{
+      "Female":{
+        "# in Emergency Shelter": 1447,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 172,
+        "Total Unduplicated Clients": 1570
+        },
+      "Male":{
+        "# in Emergency Shelter": 2501,
+        "# in Safe Haven": 69,
+        "# in Transitional Housing": 87,
+        "Total Unduplicated Clients":2627
+        },
+      "Trans Female":{
+        "# in Emergency Shelter": 18,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 0,
+        "Total Unduplicated Clients": 18
+        },
+      "Trans Male":{
+        "# in Emergency Shelter": 3,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 1,
+        "Total Unduplicated Clients":4
+        },
+      "Gender Non-Conforming":{
+        "# in Emergency Shelter": 3,
+        "# in Safe Haven": 1,
+        "# in Transitional Housing": 0,
+        "Total Unduplicated Clients": 4
+        },
+      "Unknown":{
+        "# in Emergency Shelter": 6,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 0,
+        "Total Unduplicated Clients": 6
+        }
+
+      },
+    "Veteran Satus":{
+      "Veteran":{
+        "# in Emergency Shelter": 417,
+        "# in Safe Haven": 69,
+        "# in Transitional Housing": 77,
+        "Total Unduplicated Clients": 535
+        },
+      "Not a Veteran":{
+        "# in Emergency Shelter": 3810,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 250,
+        "Total Unduplicated Clients": 3990
+        },
+      "Unknown":{
+        "# in Emergency Shelter": 7,
+        "# in Safe Haven": 1,
+        "# in Transitional Housing": 0,
+        "Total Unduplicated Clients":8
+        }
+      },
+    "Age Category":{
+      "Adult 25-61":{
+        "# in Emergency Shelter": 3087,
+        "# in Safe Haven": 48,
+        "# in Transitional Housing": 127,
+        "Total Unduplicated Clients": 3216
+        },
+      "Adult 18-24":{
+        "# in Emergency Shelter": 306,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 46,
+        "Total Unduplicated Clients": 349
+        },
+      "Elder Adult 62+":{
+        "# in Emergency Shelter": 293,
+        "# in Safe Haven": 23,
+        "# in Transitional Housing": 11,
+        "Total Unduplicated Clients": 322
+        },
+      "Children":{
+        "# in Emergency Shelter": 88,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 0,
+        "Total Unduplicated Clients": 88
+        },
+      "Unknown":{
+        "# in Emergency Shelter": 0,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 0,
+        "Total Unduplicated Clients":0
+        }
+      },
+    "Disability Status":{
+      "Has a Disabling Condition":{
+        "# in Emergency Shelter": 2256,
+        "# in Safe Haven": 69,
+        "# in Transitional Housing": 102,
+        "Total Unduplicated Clients": 2393
+        },
+      "Does Not Have a Disabling Condition":{
+        "# in Emergency Shelter": 1929,
+        "# in Safe Haven": 3,
+        "# in Transitional Housing": 175,
+        "Total Unduplicated Clients": 2078
+        },
+      "Unknow":{
+        "# in Emergency Shelter": 35,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 2,
+        "Total Unduplicated Clients":37
+        }
+      }
+    },
+  "2019": {
+    "Race": {
+      "American Indian or Alaskan Native":{
+        "# in Emergency Shelter": 66,
+        "# in Safe Haven": 1,
+        "# in Transitional Housing": 5,
+        "Total Unduplicated Clients": 72
+        },
+      "Asian":{
+        "# in Emergency Shelter": 33,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 4,
+        "Total Unduplicated Clients":33
+        },
+      "Black or African American":{
+        "# in Emergency Shelter": 1912,
+        "# in Safe Haven": 10,
+        "# in Transitional Housing": 188,
+        "Total Unduplicated Clients": 2017
+        },
+      "Native Hawaiian or Other Pacific Islander":{
+        "# in Emergency Shelter": 20,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing":2,
+        "Total Unduplicated Clients": 21
+        },
+      "White":{
+        "# in Emergency Shelter": 2355,
+        "# in Safe Haven": 42,
+        "# in Transitional Housing": 180,
+        "Total Unduplicated Clients": 2507
+        },
+      "Unknown":{
+        "# in Emergency Shelter": 50,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 5,
+        "Total Unduplicated Clients": 54
+        }
+      },
+    "Ethnicity":{
+      "Hispanic/Latino":{
+        "# in Emergency Shelter": 1127,
+        "# in Safe Haven": 9,
+        "# in Transitional Housing": 112,
+        "Total Unduplicated Clients": 1215
+        },
+      "Non-Hispanic/Non-Latino":{
+        "# in Emergency Shelter": 3293,
+        "# in Safe Haven": 44,
+        "# in Transitional Housing": 272,
+        "Total Unduplicated Clients":3473
+        },
+      "Unknown":{
+        "# in Emergency Shelter": 16,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 0,
+        "Total Unduplicated Clients": 16
+        }
+      },
+    "Gender":{
+      "Female":{
+        "# in Emergency Shelter": 1697,
+        "# in Safe Haven": 1,
+        "# in Transitional Housing": 184,
+        "Total Unduplicated Clients": 1792
+        },
+      "Male":{
+        "# in Emergency Shelter": 2703,
+        "# in Safe Haven": 52,
+        "# in Transitional Housing": 194,
+        "Total Unduplicated Clients":2872
+        },
+      "Trans Female":{
+        "# in Emergency Shelter": 19,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 2,
+        "Total Unduplicated Clients": 21
+        },
+      "Trans Male":{
+        "# in Emergency Shelter": 6,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 1,
+        "Total Unduplicated Clients": 7
+        },
+      "Gender Non-Conforming":{
+        "# in Emergency Shelter": 8,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 3,
+        "Total Unduplicated Clients": 9
+        },
+      "Unknown":{
+        "# in Emergency Shelter": 3,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 0,
+        "Total Unduplicated Clients": 3
+        }
+      },
+    "Veteran Satus":{
+      "Veteran":{
+        "# in Emergency Shelter": 400,
+        "# in Safe Haven": 53,
+        "# in Transitional Housing": 85,
+        "Total Unduplicated Clients": 515
+        },
+      "Not a Veteran":{
+        "# in Emergency Shelter": 4011,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 297,
+        "Total Unduplicated Clients": 4162
+        },
+      "Unknown":{
+        "# in Emergency Shelter": 25,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 2,
+        "Total Unduplicated Clients":27
+        }
+      },
+    "Age Category":{
+      "Adult 25-61":{
+        "# in Emergency Shelter": 3085,
+        "# in Safe Haven": 40,
+        "# in Transitional Housing": 126,
+        "Total Unduplicated Clients": 3189
+        },
+      "Adult 18-24":{
+        "# in Emergency Shelter": 286,
+        "# in Safe Haven": 1,
+        "# in Transitional Housing": 95,
+        "Total Unduplicated Clients": 366
+        },
+      "Elder Adult 62+":{
+        "# in Emergency Shelter": 308,
+        "# in Safe Haven": 12,
+        "# in Transitional Housing": 15,
+        "Total Unduplicated Clients": 328
+        },
+      "Children":{
+        "# in Emergency Shelter": 787,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 149,
+        "Total Unduplicated Clients": 852
+        },
+      "Unknown":{
+        "# in Emergency Shelter": 0,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 0,
+        "Total Unduplicated Clients":0
+        }
+      },
+    "Disability Status":{
+      "Has a Disabling Condition":{
+        "# in Emergency Shelter": 2404,
+        "# in Safe Haven": 50,
+        "# in Transitional Housing": 157,
+        "Total Unduplicated Clients": 2550
+        },
+      "Does Not Have a Disabling Condition":{
+        "# in Emergency Shelter": 2134,
+        "# in Safe Haven": 3,
+        "# in Transitional Housing": 225,
+        "Total Unduplicated Clients": 2277
+        },
+      "Unknow":{
+        "# in Emergency Shelter": 57,
+        "# in Safe Haven": 0,
+        "# in Transitional Housing": 3,
+        "Total Unduplicated Clients":60
+        }
+      }
+    }
+ }
+
+
+
+
+
+
+
+   
+
+
+
+
+
+      
+

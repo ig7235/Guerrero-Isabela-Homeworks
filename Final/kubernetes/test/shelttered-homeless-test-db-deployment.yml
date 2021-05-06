@@ -1,0 +1,31 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: shelttered-homeless-test-db-deployment
+  labels:
+    app: shelttered-homeless-test-db
+    env: test
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: shelttered-homeless-test-db
+  template:
+    metadata:
+      labels:
+        app: shelttered-homeless-test-db
+        env: test
+    spec:
+      containers:
+        - name: shelttered-homeless-test-db
+          image: ig7235/shelttered-homeless-app-db:1.0
+          imagePullPolicy: Always
+          command: ["redis-server"]
+          volumeMounts:
+          - name: shelttered-homeless-test-db-pvc
+            mountPath: "/data"
+      volumes:
+      - name: shelttered-homeless-test-db-pvc
+        persistentVolumeClaim:
+          claimName: shelttered-homeless-test-db-pvc

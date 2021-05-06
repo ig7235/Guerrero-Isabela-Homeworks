@@ -1,0 +1,29 @@
+---
+version: '3'
+services:
+    ig7235-db:
+        build:
+            context: .
+            dockerfile: ./docker/Dockerfile.db
+        container_name: ig7235-db
+        ports:
+            - 6391:6379
+        user: "869573:816966"
+        volumes:
+            - ../data/:/data/
+    ig7235-api:
+        build:
+            context: .
+            dockerfile: ./docker/Dockerfile.api
+        container_name: ig7235-api
+        environment:
+            - REDIS_IP=ig7235-db
+        ports:
+            - 5011:5000
+    ig7235-wrk:
+        build:
+            context: .
+            dockerfile: ./docker/Dockerfile.wrk
+        container_name: ig7235-wrk
+        environment:
+            - REDIS_IP=ig7235-db

@@ -1,0 +1,29 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: shelttered-homeless-test-api-deployment
+  labels:
+    app: shelttered-homeless-test-api
+    env: test
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: shelttered-homeless-test-api
+  template:
+    metadata:
+      labels:
+        app: shelttered-homeless-test-api
+        env: test
+    spec:
+      containers:
+        - name: shelttered-homeless-test-api
+          image: ig7235/shelttered-homeless-app-api:1.0
+          imagePullPolicy: Always
+          env:
+          - name: REDIS_IP
+            value: 10.101.165.169
+          ports:
+          - name: http
+            containerPort: 5000

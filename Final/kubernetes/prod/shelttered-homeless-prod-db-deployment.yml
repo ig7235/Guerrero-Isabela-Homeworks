@@ -1,0 +1,31 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: shelttered-homeless-prod-db-deployment
+  labels:
+    app: shelttered-homeless-prod-db
+    env: prod
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: shelttered-homeless-prod-db
+  template:
+    metadata:
+      labels:
+        app: shelttered-homeless-prod-db
+        env: prod
+    spec:
+      containers:
+        - name: shelttered-homeless-prod-db
+          image: ig7235/shelttered-homeless-app-db:1.0
+          imagePullPolicy: Always
+          command: ["redis-server"]
+          volumeMounts:
+          - name: shelttered-homeless-prod-db-pvc
+            mountPath: "/data"
+      volumes:
+      - name: shelttered-homeless-prod-db-pvc
+        persistentVolumeClaim:
+          claimName: shelttered-homeless-prod-db-pvc
